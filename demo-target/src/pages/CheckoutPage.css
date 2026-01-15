@@ -1,0 +1,11 @@
+.checkout-page { padding: 20px 0; }
+.checkout-content { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; margin-top: 30px; }
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; margin-bottom: 5px; font-weight: 500; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+.shipping-methods label { display: block; padding: 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; }
+.continue-btn, .place-order-btn { background: #28a745; color: white; width: 100%; padding: 15px; font-size: 16px; margin-top: 20px; }
+.order-summary { background: #f8f9fa; padding: 20px; border-radius: 8px; }
+.summary-row { display: flex; justify-content: space-between; margin: 10px 0; }
+.summary-row.total { font-size: 20px; font-weight: bold; padding-top: 15px; border-top: 2px solid #333; }
+.validation-errors { background: #f8d7da; padding: 15px; border-radius: 4px; margin-bottom: 20px; }
